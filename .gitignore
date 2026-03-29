@@ -1,0 +1,17 @@
+# ========================================================
+# Antigravity Agentic OS Boilerplate (.gitignore)
+# ========================================================
+# Boilerplate를 포크하여 새 프로젝트를 진행할 때, 
+# 이전 프로젝트의 로그가 섞이지 않도록 철저히 차단합니다.
+
+# 1. 지식 자산(ADR) 보존 통제 (템플릿 뼈대 파일만 남김)
+.agents/knowledge/*.md
+!.agents/knowledge/_TEMPLATE.md
+
+# 2. 일일 업무일지 보존 통제 (템플릿 뼈대 파일만 남김)
+.agents/logs/*/*.md
+!.agents/logs/_TEMPLATE.md
+
+# 3. 제품 기획서 보존 통제 (템플릿 뼈대 파일만 남김)
+ideas/proposals/*.md
+!ideas/proposals/_TEMPLATE.md

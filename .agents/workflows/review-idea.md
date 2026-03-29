@@ -6,8 +6,8 @@ description: 사용자의 아이디어를 PM과 CTO 프레임워크를 기반으
 
 이 워크플로는 사용자님의 거친 아이디어를 즉시 도마 위에 올려놓고 기획적/기술적 검토 리포트를 기계적으로 산출하는 버튼 세팅입니다.
 
-1. 무조건 `view_file` 도구를 실행하여 `Smith/ideas/frameworks/pm-validation.md`를 열독한다.
-2. 무조건 `view_file` 도구를 실행하여 `Smith/ideas/frameworks/cto-validation.md`를 열독한다.
+1. 무조건 `view_file` 도구를 실행하여 `ideas/frameworks/pm-validation.md`를 열독한다.
+2. 무조건 `view_file` 도구를 실행하여 `ideas/frameworks/cto-validation.md`를 열독한다.
 3. 두 관점(비즈니스/UX 결함 및 기술 타당성 리스크)을 취합하여, 사용자의 아이디어에 대한 '사용성 마찰 요소, 기술 부채, 아키텍처 리스크' 결함을 냉철히 지적한다.
 4. 비판에 그치지 말고 무조건 2~3개의 현실적인 우회/축소 기획안이나 구조적 대안(Trade-off)을 포함한 요약 리포트를 마크다운 표(Table)로 산출하여, 사용자가 즉시 아키텍처(PoC) 착수 여부를 결정하도록 가이드하라.
-5. 리포트 산출 직후, 예외 없이 다음 멘트를 날려라: "이 결과를 `Smith/ideas/proposals/` 에 영구 아카이빙할까요?"
+5. 리포트 산출 직후, 예외 없이 다음 멘트를 날려라: "이 결과를 `ideas/proposals/` 에 영구 아카이빙할까요?"
