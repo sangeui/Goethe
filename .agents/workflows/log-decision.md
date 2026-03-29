@@ -9,5 +9,5 @@ description: 에이전트가 새로운 의사결정이나 지식을 구조화된
 1. `.agents/knowledge/_TEMPLATE.md`의 형식을 준수합니다.
 2. 합의된 내용을 요약하여 `task` 제목(Title), 맥락(Context), 결정(Decision), 제약 조건(Constraints) 섹션을 구성합니다.
 3. 오늘 날짜를 기반으로 `YYYYMMDD-작업을요약하는키워드.md` 포맷의 파일명을 지정합니다.
-4. YAML 태그(`tags:`)에 검색을 위한 적절한 키워드들을 배치하고, `status: active`로 설정합니다.
+4. YAML 태그( `tags:` )에 검색을 위한 적절한 키워드들을 배치하고, `status: active`로 설정합니다.
 5. 시스템에 기록하며(`write_to_file` 사용), 성공 시 사용자에게 짧은 요약과 함께 파일 경로를 통보합니다.
